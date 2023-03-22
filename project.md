@@ -13,15 +13,15 @@ them?_
 
 I have been crocheting for a few years now, and as I have gotten more advanced, I have
 run into a frustrating problem. When I am following a crochet pattern and I want to make
-changes that are differnet to the pattern, it is difficult to keep track of these changes.
+steps that are different to the pattern, it is difficult to keep track of these changes.
 Additionally, when I have created my own crochet patterns, I have really struggled to
-keep track of the steps that I have taken. Writing down the steps in my notes app, it gets
-confusing very quickly!
+keep track of the steps that I have taken. Writing down the steps in my notes app, I get
+confused very quickly!
 
-These concerns made me think about the greater problems within crochet pattern creation. I
-want to help people who are creating crochet patterns, or editing already existing patterns,
+These concerns made me think about the greater problems within crochet pattern writing. I
+want to help people who are writing crochet patterns, or editing already existing patterns,
 to have a smooth process in which they can create documents that contain crochet patterns.
-Currently, someone creating a pattern must use a text editor, like Microsoft Word, that is
+Currently, someone writing a pattern must use a text editor, like Microsoft Word, that is
 not created with crochet pattern creation in mind. Then, when someone purchases a crochet
 pattern, they typically recieve a PDF. Because PDFs can't be directly edited by the user,
 if someone wants to make changes to the crochet pattern, they must keep track of them in
@@ -39,10 +39,10 @@ the output to a file format like a PDF.
 
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
 
-Writing a crochet pattern has a language of it's own, there are domain specific abbreviations,
+Writing a crochet pattern already has a language of it's own. There are domain specific abbreviations,
 required sections of a pattern, and each step aligns with a physical movement that the
-crocheter must do with their yarn and crochet hook. A non-specifc text editor does not about
-these domain specific aspects of crochet patterns, and therefore does not provide assistance
+crocheter must do with their yarn and crochet hook. A non-specifc text editor does not know about
+these domain specific aspects of crochet pattern writing, and therefore does not provide assistance
 related to these attributes. A DSL is appropriate for crochet pattern writers because it will
 allow them to have access to specific text editing components that will make writing crochet
 patterns a more accessible and faster process.
@@ -94,7 +94,7 @@ the user?_
 When the program runs, a crochet markdown file is compiled into the desired output
 format. This program can either successfully run, or fail with errors that will
 help the user solve the problem. The users main way to interact with the program
-is to go back an make edits, recompile the program, and look at the output to see
+is to go back and make edits, recompile the program, and look at the output to see
 what changes they would like to make. This is the same as writing into a markdown
 file like I am doing right now.
 
@@ -113,7 +113,7 @@ In this language it should be easy to write clear and easy to read crochet patte
 that contain all of the important parts of a crochet pattern. It should also be
 easy to recieve a crochet markdown file and then edit it to update the crochet pattern.
 
-Because this is a markdown file, there are limits on one the user can do, so I can't
+Because this is a markdown file, there are limits on what the user can do, so I can't
 think of any aspects of the language that are possible but difficult to do.
 
 It would be impossible to do any computation with the DSL, this is purely a program
@@ -130,10 +130,10 @@ Markdown already exists, and while it is specific to document creation, it is no
 specific to crochet pattern writing.
 
 There are crochet apps that help you work on a pattern, but I have not come across
-any apps that help you create your own pattern. See [link](https://hearthookhome.com/best-free-crochet-apps/) for some existing
+any apps that help you create your own pattern. See [this link](https://hearthookhome.com/best-free-crochet-apps/) for some existing
 crochet apps. 
 
-Additionally, there is crochet shorthand that is used descripting steps in crochet patterns.
+Additionally, there is crochet shorthand that is used for describing steps in crochet patterns.
 In order to write a crochet pattern one uses this shorthand, but again there is no programming
 language to writeup crochet patterns. I would like to use this shorthand in my crochet pattern
 writeup language.
