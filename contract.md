@@ -10,8 +10,8 @@ gain a deeper understanding and important practice in writing these aspects of p
 languages.
 
 I also am excited to work on a project from start to finish. I find that in school this is
-not something that I get to do often because we are working on sections of projects a lot
-in our homework. Therefore, I really like getting to work on final projects and create
+not something that I get to do often because I am often working on sections of projects
+in my homework. Therefore, I really like getting to work on final projects and create
 something from start to finish.
 
 ## Concepts / skills
